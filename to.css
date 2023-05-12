@@ -13,7 +13,7 @@ body {
 }
 .countiner {
     /* border: 2px solid white; */
-    width: 40%;
+    width: 450px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
