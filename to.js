@@ -11,7 +11,7 @@ document.querySelector('#bush').onclick = function (){
                             document.querySelector('#newtask input').value
                         }
                     </span>
-                    <button class="delete"><i class="fa-solid fa-trash"></i></button>
+                    <button class="delete">Delete</button>
             </div>`;
                 var current = document.querySelectorAll('.delete');
                 for (var i=0 ; i < current.length ; i++){
