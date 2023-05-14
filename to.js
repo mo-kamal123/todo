@@ -29,3 +29,12 @@ document.querySelector('#bush').onclick = function (){
     }
 }
 
+let body = document.querySelector("body");
+let colors = ["#d161ff", "#52baec", "#8052ce", "#50e5a7"];
+setInterval(() => {
+    let random = Math.floor(Math.random() * colors.length);
+    let randomon = Math.floor(Math.random() * colors.length);
+    // console.log(random);
+    // console.log(randomon);
+    body.style.backgroundColor = colors[random]; 
+}, 5000);

@@ -8,9 +8,8 @@
 }
 body {
     height: 100vh;
-    background: linear-gradient(153deg,
-    #8052ec,
-    #d161ff);
+    background-color :#8052ec;
+    transition: 3s;
 }
 .countiner {
     /* border: 2px solid white; */
